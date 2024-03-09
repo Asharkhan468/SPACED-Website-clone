@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.bg-black{
+    background-color: #000000;
+}
+
+
+nav ul li {
+    list-style: none;
+    padding: 5px;
+   display: inline-block;
+ 
+   
+}
+
+nav ul{
+    text-align: center;
+    
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.banner{
+    background: url(./assets/civoml68_astronaut-generic_625x300_02_August_23.webp) no-repeat;
+    max-width: 100%;
+    min-height: 70vh;
+    background-size: cover;
+    position:relative;
+   
+}
+
+.text-block{
+
+    
+    color:#fff;
+    margin-top: 120px;
+    font-size: 50px;
+    text-align: center;
+    /* transform: translate(-50%,-50%); */
+    
+    
+}
+
+.border{
+    border: 1px solid red ;
+    padding: 15px;
+}
+
+.images1{
+    width: 100%;
+}
+
+.fa-solid{
+    font-size: 50px;
+    text-align: center;
+    color: #dda15e;
+}
+
+.width{
+    width: 33.33%;
+    padding: 15px;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 5px;
+   display: inline-block;
+ 
+   
+}
+
+footer ul{
+    text-align: center;
+    
+
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+ ul li {
+    list-style: none;
+    padding: 20px;
+   display: inline-block;
+ 
+   
+}
+
+ ul{
+    text-align: center;
+    
+
+}
+
+ a{
+    text-decoration: none;
+    color: white;
+}
+
+.img-width img{
+    width: 40%;
+
+}
+
+
+
+/* utility classes started */
+
+.margin-right{
+    margin-right: 300px;
+}
+
+.padding-1{
+    padding: 15px;
+}
+
+.padding-2{
+    padding: 3px;
+}
+
+.padding-3{
+    padding: 70px;
+}
+.padding-4{
+    padding: 35px;
+}
+
+.mt-5{
+    margin-top: 150px;
+}
+.mt-6{
+    margin-top: 160px;
+}
+
+.margin-left{
+    margin-left: 100px;
+}
+
+
+
+
+
+/* utility classes ended */
+
+
+@media(max-width:768px){
+    .text-block{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .dropdown{
+        display: none;
+    }
+}
+
