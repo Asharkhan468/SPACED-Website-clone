@@ -99,7 +99,7 @@ footer a{
    
 }
 
- ul{
+ ul {
     text-align: center;
     
 
@@ -148,11 +148,6 @@ footer a{
 .margin-left{
     margin-left: 100px;
 }
-hr{
-    width: 10px;
-    color: #ffffff;
-}
-
 
 
 
@@ -168,6 +163,9 @@ hr{
 
     .d-none{
         display: none;
+    }
+    .fa-solid{
+        font-size: 25px;
     }
 }
 
