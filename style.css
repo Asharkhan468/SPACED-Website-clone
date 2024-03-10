@@ -148,6 +148,10 @@ footer a{
 .margin-left{
     margin-left: 100px;
 }
+hr{
+    width: 10px;
+    color: #ffffff;
+}
 
 
 
@@ -162,7 +166,7 @@ footer a{
         text-align: center;
     }
 
-    .dropdown{
+    .d-none{
         display: none;
     }
 }
