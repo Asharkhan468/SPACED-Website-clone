@@ -105,14 +105,25 @@ footer a{
 
 }
 
- a{
+ li a{
     text-decoration: none;
-    color: white;
-}
+    color:#ffffff;
+ }
 
 .img-width img{
     width: 40%;
 
+}
+
+img:hover{
+    transform: scale(1.1);
+   transition: 0.5s;
+  
+}
+
+.btn-group:hover{
+    background-color:lightblue;
+    color: #000000;
 }
 
 
@@ -157,12 +168,12 @@ footer a{
 
 @media(max-width:768px){
     .text-block{
-        font-size: 20px;
+        font-size: 30px;
         text-align: center;
     }
 
-    .d-none{
-        display: none;
+    .display-none{
+        display:none;
     }
     .fa-solid{
         font-size: 25px;
